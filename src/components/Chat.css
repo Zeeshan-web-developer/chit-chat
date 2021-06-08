@@ -1,0 +1,94 @@
+.Chat {
+  height: 95vh;
+  width: 95vw;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(190, 190, 190);
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.ChatArea {
+  background-color: coral;
+  display: flex;
+  flex-grow: 1;
+}
+
+.MenuArea {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+}
+
+.MenuHeadArea {
+  background-color: lightgray;
+  text-align: left;
+  line-height: 0.5;
+}
+
+.UsersList {
+  flex-basis: 250px;
+  background-color: #dfe4ea;
+  flex-grow: 1;
+  position: relative;
+  overflow-y: auto;
+  line-height: 0.7;
+}
+
+.Body {
+  background-color: cornsilk;
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.HeadArea {
+  background-color: lightgray;
+  text-align: right;
+  flex-basis: 50px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.MessagesArea {
+  background-color: #ced4df91;
+  flex-grow: 1;
+  height: 1vh;
+  position: relative;
+  overflow-y: auto;
+}
+
+.FooterChat {
+  background-color: #a4b0be;
+  flex-basis: 40px;
+  display: flex;
+  padding: 5px;
+}
+
+.FooterChat .input {
+  font-size: 1.2rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.FooterChat .btn {
+  font-size: 1rem;
+}
+
+.UsersList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.UsersList li a {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex: 1;
+
+  margin-bottom: 0px;
+
+  text-decoration: none;
+  color: blue;
+}
