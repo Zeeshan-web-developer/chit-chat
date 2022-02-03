@@ -25,7 +25,7 @@ The functionality that I found important, and that I was able to implement, is t
 How to run
 
 Clone the project:
-git clone https://github.com/pelinche/nta_chat.git
+
 
 Enter folder nta_chat
 
